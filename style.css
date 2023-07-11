@@ -1,0 +1,322 @@
+body{
+  background: #ddd;
+  margin:0;
+  padding:0;
+}
+
+.main{
+
+}
+
+.header{
+  background:#0e1229;
+
+  width:100%;
+  height:150px;
+}
+
+.logo{
+  width:20%;
+float:left;
+}
+
+.logo img{
+  width:150px;
+  height:150px;;
+}
+.title{
+  color:white;
+  width:20%;
+  float:left;
+  text-align: center;
+  font-size: 50px;
+  margin-top:3%;
+}
+
+.nav{
+  width:60%;
+  float:right;
+}
+
+ul{
+  list-style-type: none;
+  float:right;
+    margin-top:7%;
+}
+ul li{
+  float:left;
+
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+  padding:8px;
+  font-size: 25px;
+
+}
+ul li a:hover{
+
+  text-decoration: underline;
+
+  transition:.5s;
+}
+.div-clear{
+  clear:both;
+}
+
+.bio{
+  text-align: center;
+  margin-top:10%;
+  font-style: italic;
+  font-size: 50px;
+}
+
+span.lilbio{
+  font-size: 20px;
+  font-style: normal;
+}
+
+.hellbtn{
+  background: transparent;
+  padding:20px;
+  border:1px solid black;
+  font-weight: bold;
+  border-radius:15px;
+  cursor:pointer;
+}
+.hellbtn:hover{
+  background: black;
+  color:white;
+  transition:.5s;
+  border:2px solid white;
+}
+
+.tutorials{
+  width:100%;
+  height:500px;
+  background: #0e1229;
+  color:white;
+  text-align:center;
+  margin-top:10px;
+
+}
+.tut{
+  font-size: 30px;
+}
+
+.card{
+  width:300px;
+  height:400px;
+  background: #ddd;
+  position:absolute;
+  left:20px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius:8px;
+
+}
+.card:hover{
+    box-shadow: 2px 3px 4px 4px red;
+    transition:.5s;
+
+}
+
+.cardtwo{
+  width:300px;
+  height:400px;
+  background: red;
+float:right;
+text-align: center;
+  margin-top: 20px;
+  position:absolute;
+  right:20px;
+  border-radius:8px;
+}
+.cardtwo:hover{
+  box-shadow: 2px 3px 4px 4px white;
+  transition:.5s;
+}
+
+.upper{
+  width:100%;
+  height:180px;
+  background: purple;
+  border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.upper img{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  position:absolute;
+  top:30%;
+  left:33%;
+  border:2px solid white;
+}
+.lower{
+  color:black;
+}
+.up{
+  width:100%;
+  height:180px;
+
+}
+.up img{
+  width:100%;
+  height:100%;
+  border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.low{
+  font-size: 30px;
+  color:black;
+  margin-top:10px;
+}
+h5{
+  font-style: normal;
+  font-size:20px;
+}
+.lucbtn{
+  background: transparent;
+  padding:10px;
+  border:1px solid black;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.lucbtn:hover{
+  background: black;
+  color:white;
+  transition:.5s;
+
+}
+
+.about-section{
+  background:#d24ced;
+  width:100%;
+  height:500px;
+  margin-top:10px;
+}
+
+h2{
+  text-align: center;;
+  padding:20px;
+}
+
+.about-left{
+  width:40%;
+margin-left:30px;
+float:left;
+}
+.about-left img{
+width:300px;
+height:400px;
+}
+.about-right{
+  width:50%;
+  float:right;
+  font-size:20px;
+}
+
+.about-right p{
+  font-size: 20px;
+}
+.experience{
+  background:;
+margin-top:8px;
+  width:100%;
+  height:420px;
+  display:flex;
+  justify-content:space-between;
+}
+.work{
+
+}
+.education{
+
+}
+
+.skill{
+
+}
+
+.common{
+  width:300px;
+  height:400px;
+  background: #bad1ce;
+  margin:8px;
+text-align: center;
+padding-top:8px;
+
+}
+
+.secondlast{
+background: #3eb3f7;
+width:100%;
+height:500px;
+display:flex;
+
+text-align: center;
+}
+.achivment{
+  width:30%;
+  height:400px;
+  margin-top:8px;
+  margin-left:20px;
+  font-size: 20px;
+}
+.contact{
+  width:30%;
+  height:400px;
+  margin-top:8px;
+  margin-left:20px;
+  font-size: 20px;
+
+}
+
+
+.contact-more{
+  width:30%;
+  height:400px;
+  margin-top:8px;
+  margin-left:20px;
+  font-size: 20px;
+}
+
+input[type="text"]{
+  padding:5px;
+  border-radius: 8px;
+  margin:5px;
+}
+input[type="tel"]{
+  padding:5px;
+  border-radius: 8px;
+  margin:5px;
+}
+/*
+input[type="submit"]{
+  padding:10px;
+  border-radius:8px;
+  text-align: center;
+}
+input[type="reset"]{
+  padding:10px;
+  border-radius:8px;
+}
+
+*/
+.footer{
+  background: black;
+  display:flex;
+  justify-content: center;
+}
+.footer>div{
+  color:white;
+  padding:10px;
+
+}
+
+.footer>div:hover{
+  background: gray;
+  transition:.5s;
+}
